@@ -73,7 +73,7 @@
  * 2 => +warning (disconnect event)
  * 3 => +debug   (hosts conf and connect event)
  * */
-#define EREDIS_VERBOSE    1
+#define EREDIS_VERBOSE    3
 
 /* Retry to connect host every second, 10 times */
 #define HOST_DISCONNECTED_RETRIES         10
